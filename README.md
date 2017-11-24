@@ -8,7 +8,7 @@ scrollview嵌套viewpager  解决上下左右滑动冲突的一个方案简单de
 ![预览](https://github.com/tangqianfeng007/HoverScrollView/blob/master/files/hover.gif)
 
 ## 关于下拉刷新
-DEMO里下拉刷新是用的![SmartRefreshLayout](https://github.com/scwang90/SmartRefreshLayout)。
+DEMO里下拉刷新是用的![SmartRefreshLayout](https://github.com/scwang90/SmartRefreshLayout)(非常舒服的一个下拉刷新库，手动点赞)。
 </br>
 </br>
 经过测试，同样完美支持![Android-PullToRefresh](https://github.com/chrisbanes/Android-PullToRefresh)的下拉刷新，只是有点麻烦的是需要把PullToRefreshScrollView的泛型从Scrollview改成HoverScrollview。
