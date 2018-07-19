@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         hoverScrollView.setController(hoverpageAdpter.getOverScrollController(0));
-        viewPager.post(new Runnable() {
+        viewPager.postDelayed(new Runnable() {
             @Override
             public void run() {
                 int tabh = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP , 48 , getResources().getDisplayMetrics());
@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
                 LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT , vh);
                 viewPager.setLayoutParams(params);
             }
-        });
+        } , 150);
 
     }
 
